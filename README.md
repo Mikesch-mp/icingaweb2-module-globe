@@ -1,4 +1,4 @@
-cinga Web 2 Globe 3D Module
+#Icinga Web 2 Globe 3D Module
 
 ![Globe 3D](screenshots/globe-3d-day.PNG)
 
