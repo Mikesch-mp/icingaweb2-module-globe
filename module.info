@@ -1,5 +1,5 @@
-Name : Globe
-Version: 0.0.1
+Name : Globe 3D
+Version: 0.0.2
 Depends: Monitoring
 Description: Globe 3D module
  Globe is a 3D visualation of host/service groups

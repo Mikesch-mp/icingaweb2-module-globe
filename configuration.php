@@ -6,8 +6,9 @@ $this->menuSection('Globe 3D')
 
 //JavaScript includes
 
-$this->provideJsFile('third-party/Detector.js');
-$this->provideJsFile('third-party/three.min.js');
-$this->provideJsFile('third-party/Tween.js');
+$this->provideJsFile('third-party/Three/ThreeWebGL.js');
+$this->provideJsFile('third-party/Three/ThreeExtras.js');
+$this->provideJsFile('third-party/Three/RequestAnimationFrame.js');
+$this->provideJsFile('third-party/Three/Detector.js');
 $this->provideJsFile('globe.js');
 ?>
