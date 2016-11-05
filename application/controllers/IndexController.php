@@ -1,11 +1,13 @@
 <?php
+
+namespace Icinga\Module\Globe\Controllers;
  
-use Icinga\Web\Controller\ModuleActionController;
+use Icinga\Module\Monitoring\Controller;
  
-class Globe_IndexController extends ModuleActionController
+class IndexController extends Controller
 {
     public function indexAction()
     {
- 
+	// nothing to do here :)
     }
 }

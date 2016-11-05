@@ -82,7 +82,7 @@ DAT.Globe = function(container, colorFn) {
       targetOnDown = { x: 0, y: 0 };
 
   var distance = 100000, distanceTarget = 100000;
-  var padding = 40;
+  var padding = 20;
   var PI_HALF = Math.PI / 2;
 
   var now = new Date();

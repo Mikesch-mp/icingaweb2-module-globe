@@ -29,7 +29,7 @@
 			return new THREE.Color([0x44bb77,0xffaa44,0xff5566,0xaa44ff,0x0095bf][label]);
 		});
 		xhr = new XMLHttpRequest();
-		xhr.open('GET', 'img/globe/nodata.json', true);
+		xhr.open('GET', 'globe/globedata', true);
 	  	xhr.onreadystatechange = function(e) {
 	   		if (xhr.readyState === 4) {
 	      			if (xhr.status === 200) {
