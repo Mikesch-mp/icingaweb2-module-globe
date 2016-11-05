@@ -9,6 +9,8 @@ class GlobedataController extends Controller
     public function indexAction()
     {
 
+	$factor = $this->Config()->get('globe', 'factor', '0.01');
+	
 	$meinarray = array();
         $query = $this->backend
             ->select()
@@ -68,7 +70,7 @@ class GlobedataController extends Controller
 			unset($smallarray['geolocation']);
 			arsort($smallarray);
 			foreach ($smallarray as $key => $value ) {
-				$jsonstring .= $geolocation . "," . number_format($value * 0.01, 2) ."," . $key . ",";
+				$jsonstring .= $geolocation . "," . number_format($value * $factor, 2) ."," . $key . ",";
 			}
 		}
 		$jsonstring = rtrim($jsonstring, ",") . "]";
