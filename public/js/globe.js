@@ -281,8 +281,13 @@ DAT.Globe = function(container, colorFn) {
               morphTargets: true
             }));
       }
+      this.points.name = "lines";
       scene.addObject(this.points);
     }
+  }
+
+  function removeAllPoints() {
+      scene.removeObject(scene.getChildByName("lines"));
   }
 
   function addPoint(lat, lng, size, color, subgeo) {
@@ -445,6 +450,7 @@ DAT.Globe = function(container, colorFn) {
   });
 
   this.addData = addData;
+  this.removeAllPoints = removeAllPoints;
   this.createPoints = createPoints;
   this.renderer = renderer;
   this.scene = scene;

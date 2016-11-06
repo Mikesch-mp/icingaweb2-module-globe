@@ -19,3 +19,15 @@ vars.geolocation = "<latitude>,<longitude>"
 ```
 
 To get Geolocation data, best use a webiste like http://www.latlong.net or use you smartphone :)
+
+
+## Refresh Timer
+
+To change the default timer of 5 minutes to something that fits you, change in file globe/public/js/module.js
+```
+                // Default refresh is 5 min
+                300000
+                // End Default refresh
+```
+
+Time is in milliseconds!
