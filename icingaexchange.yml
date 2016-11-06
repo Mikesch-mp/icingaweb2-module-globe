@@ -15,3 +15,5 @@ releases:
         name: icingaweb2-module-globe-1.0.0.zip
         url: "https://github.com/Mikesch-mp/icingaweb2-module-globe/releases"
         description: Module file for Icinga Web 2
+	checksum: bae750d0a7bc18cc3ba09458a62da635
+
