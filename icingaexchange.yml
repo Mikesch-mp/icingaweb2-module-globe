@@ -1,0 +1,17 @@
+name: Globe 3D
+description: "file:///README.md"
+url: "https://github.com/Mikesch-mp/icingaweb2-module-globe"
+tags: Module, Monitoring, Visualization
+vendor: Carsten Koebke
+target: Icinga Web 2
+type: Module
+license: gplv2
+releases:
+  -
+    name: v1.0.0
+    description: "Current"
+    files:
+      -
+        name: icingaweb2-module-globe-1.0.0.zip
+        url: "https://github.com/Mikesch-mp/icingaweb2-module-globe/releases"
+        description: Module file for Icinga Web 2
