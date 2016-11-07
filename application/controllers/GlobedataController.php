@@ -30,7 +30,6 @@ class GlobedataController extends Controller
 	                		'host_name',
 	                		'service_display_name',
 					'service_host_name',
-					'service_display_name',
 	                		'service_state'))
 		    		->where('service_host_name', $row->host_name);
 	
@@ -70,7 +69,7 @@ class GlobedataController extends Controller
 			unset($smallarray['geolocation']);
 			arsort($smallarray);
 			foreach ($smallarray as $key => $value ) {
-				$jsonstring .= $geolocation . "," . number_format($value * $factor, 2) ."," . $key . ",";
+				$jsonstring .= $geolocation . "," . number_format("$value" * "$factor", 4) ."," . $key . ",";
 			}
 		}
 		$jsonstring = rtrim($jsonstring, ",") . "]";
