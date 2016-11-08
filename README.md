@@ -1,6 +1,6 @@
 #Icinga Web 2 Globe 3D Module
 
-![Globe 3D](screenshots/globe-3d-day.PNG)
+![Globe 3D](https://github.com/Mikesch-mp/icingaweb2-module-globe/raw/master/screenshots/globe-3d-day.PNG)
 
 ## Requirements
 
@@ -18,7 +18,7 @@ To get the hosts displayd on the globe you have to add to each host configuratio
 vars.geolocation = "<latitude>,<longitude>"
 ```
 
-To get Geolocation data, best use a webiste like http://www.latlong.net or use you smartphone :)
+To get Geolocation data, best use a website like http://www.latlong.net or use you smartphone :)
 
 
 ## Refresh Timer
