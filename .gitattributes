@@ -1,0 +1,5 @@
+.gitignore                          export-ignore
+.gitattributes                      export-ignore
+icingaexchange.yml                  export-ignore
+/screenshots/*                      export-ignore
+
