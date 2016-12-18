@@ -8,11 +8,11 @@ type: Module
 license: gplv2
 releases:
   -
-    name: v1.0.2
+    name: v1.0.3
     description: "Current"
     files:
       -
-        name: icingaweb2-module-globe-1.0.2.zip
-        url: "https://github.com/Mikesch-mp/icingaweb2-module-globe/archive/v1.0.2.zip"
+        name: icingaweb2-module-globe-1.0.3.zip
+        url: "https://github.com/Mikesch-mp/icingaweb2-module-globe/archive/v1.0.3.zip"
         description: Module file for Icinga Web 2
         checksum: ce47c46bee8726ffcf2f07455f56fd5a
