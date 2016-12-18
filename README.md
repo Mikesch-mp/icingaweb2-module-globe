@@ -15,7 +15,7 @@ Copy all files/folders into .../icingaweb2/modules/globe. The foldername for the
 
 To get the hosts displayd on the globe you have to add to each host configuration 
 ```
-vars.geolocation = "<latitude>,<longitude>"
+vars.geolocation = "\<latitude\>,\<longitude\>"
 ```
 
 To get Geolocation data, best use a website like http://www.latlong.net or use you smartphone :)
