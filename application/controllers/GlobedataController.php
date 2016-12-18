@@ -20,8 +20,6 @@ class GlobedataController extends Controller
 		'varvalue'))
             ->where('varname', 'geolocation');
 	    
-        $this->applyRestriction('monitoring/filter/objects', $query);    
-
 	if (count($query->fetchAll()) > 0 ) {
         	foreach ($query as $row) {
 			$query2 = $this->backend
@@ -33,6 +31,8 @@ class GlobedataController extends Controller
 	                		'service_state'))
 		    		->where('service_host_name', $row->host_name);
 	
+			$this->applyRestriction('monitoring/filter/objects', $query2);
+
 			foreach ($query2 as $row2) {
 				$meinkey = md5($row->varvalue);
 				if(!isset($meinarray["$meinkey"])) {
