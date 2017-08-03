@@ -164,7 +164,7 @@ DAT.Globe = function(container, colorFn) {
 
     //SPACE
     
-    var urls = [ imgDir+'nebula-xpos.png', imgDir+'nebula-xneg.png', imgDir+'nebula-ypos.png', imgDir+'nebula-yneg.png', imgDir+'nebula-zpos.png', imgDir+'nebula-zneg.png' ];
+    var urls = [ imgDir+'nebula-xpos.jpg', imgDir+'nebula-xneg.jpg', imgDir+'nebula-ypos.jpg', imgDir+'nebula-yneg.jpg', imgDir+'nebula-zpos.jpg', imgDir+'nebula-zneg.jpg' ];
     var textureCube = THREE.ImageUtils.loadTextureCube( urls );
     var shader = THREE.ShaderUtils.lib["cube"];
     var uniforms = THREE.UniformsUtils.clone( shader.uniforms );
