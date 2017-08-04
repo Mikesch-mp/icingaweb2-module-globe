@@ -1,8 +1,10 @@
 <?php
 
-$this->menuSection('Globe 3D')
-     ->setIcon('lightbulb')
-     ->setUrl('globe');
+$section = $this->menuSection(N_('Maps'))
+    ->setIcon('globe')
+    ->add($this->translate('Globe 3D'))
+    ->setUrl('globe')
+    ->setIcon('lightbulb');
 
 //JavaScript includes
 
