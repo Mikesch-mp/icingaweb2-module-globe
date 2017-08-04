@@ -1,6 +1,6 @@
 #Icinga Web 2 Globe 3D Module
 
-![Globe 3D](https://github.com/Mikesch-mp/icingaweb2-module-globe/raw/master/screenshots/globe-3d-day.PNG)
+![Globe 3D](https://github.com/Mikesch-mp/icingaweb2-module-globe/raw/master/doc/images/globe01.png)
 
 ## Requirements
 
