@@ -100,6 +100,7 @@ object Host "db-in-la" {
   vars.geolocation = "34.052234,-118.243685"
 }
 ```
+To get Geolocation data, best use a website like http://www.latlong.net or use you smartphone :)
 
 ### Refresh Timer
 
@@ -111,9 +112,6 @@ To change the default timer of 5 minutes to something that fits you, change in f
 ```
 
 Time is in milliseconds!
-
-
-To get Geolocation data, best use a website like http://www.latlong.net or use you smartphone :)
 
 ## Contributing
 
