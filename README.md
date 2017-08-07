@@ -13,6 +13,8 @@
 
 ## About
 
+Globe 3D is a gimmick module for Icinga Web 2. It will display bars with service states of your hosts on a 3D globe.
+
 ![Globe 3D](https://github.com/Mikesch-mp/icingaweb2-module-globe/raw/master/doc/images/globe01.png)
 
 ## License
